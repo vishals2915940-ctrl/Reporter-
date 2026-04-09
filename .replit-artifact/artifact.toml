@@ -1,0 +1,13 @@
+kind = "web"
+previewPath = "/"
+title = "Telegram Reporter"
+version = "1.0.0"
+id = "TgReporter2024xYzAbc"
+
+[[services]]
+localPort = 5000
+name = "Telegram Reporter"
+paths = ["/"]
+
+[services.development]
+run = "npm run dev"
